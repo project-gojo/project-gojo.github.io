@@ -1,0 +1,120 @@
+html {
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    background-size: cover;
+    padding:0;
+    margin:0;
+  }
+  
+body {
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    background-size: cover;
+    padding:0;
+    margin:0;
+}
+
+h1,
+h2 {
+  color: cornflowerblue;
+  text-align: center;
+}
+
+h3 {
+  color: beige;
+  text-align: center;
+}
+
+p {
+    color: beige;
+    font-size: 20px;
+    text-align: left;
+  }
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: maroon;
+  }
+  
+li {
+    float: right;
+}
+
+li a {
+    display: block;
+    color: cornflowerblue;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.background {
+    height: 100%;
+    width: 100%;
+    background-image: url('https://n.sinaimg.cn/astro/transform/681/w450h231/20190828/ba50-icuacsa6365098.gif');
+    background-size: cover;
+    padding:0;
+    margin:0;
+  }
+
+.profile {
+    margin-top: auto;
+    margin-bottom: auto;
+    border-radius: 9999px;
+    height: 50px;
+    width: 50px;
+}
+
+img {
+  width: 100%;
+  height: 100%;
+}
+
+iframe {
+  height: 50%;
+  width: 50%;
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.side_two {
+  float: left;
+  width: 50%;
+  height: 100%;
+}
+
+.side_three {
+  float: left;
+  width: 33.33%;
+  height: 100%;
+}
+
+.center_solo {
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  height: 100%;
+  width: 200%;
+}
+
+.division {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.right {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  gap: 20px;
+  margin-block-start:0;
+  margin-block-end:.9rem;
+}
